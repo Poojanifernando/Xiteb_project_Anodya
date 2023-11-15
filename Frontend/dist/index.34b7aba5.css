@@ -1,0 +1,232 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins&display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #000;
+  background: none;
+  border: 2px solid #08fd00;
+}
+
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #1a1b1d;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+.alert {
+  opacity: .9;
+  background: var(--light-color);
+  color: #333;
+  margin: 1rem 0;
+  padding: .8rem;
+}
+
+.alert-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.alert-light {
+  background: var(--light-color);
+  color: #333;
+}
+
+.alert-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.alert-danger {
+  background: var(--danger-color);
+  color: #fff;
+}
+
+.alert-success {
+  background: var(--success-color);
+  color: #fff;
+}
+
+.navbar {
+  z-index: 1;
+  width: 100%;
+  opacity: .9;
+  background: #00008b;
+  justify-content: space-between;
+  align-items: center;
+  padding: .7rem 2rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 1rem;
+  padding: 1rem;
+}
+
+.navbar .welcome span {
+  margin-right: .6rem;
+}
+
+.landing {
+  height: 100vh;
+  background: url("landing.cc9e0429.jpg") 80% / cover no-repeat;
+  position: relative;
+}
+
+.dark-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #453c3c66;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.landing-inner {
+  color: #fff;
+  height: 60%;
+  width: 60%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+}
+
+.landing-inner h1 {
+  text-shadow: #fff;
+  font-size: 150px;
+}
+
+.landing-inner p {
+  max-width: 70%;
+  font-size: 25px;
+}
+
+.landing-inner .btn-lg {
+  color: #fff;
+  width: 100%;
+  background-color: #6cafa4;
+  border-radius: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  display: inline;
+}
+
+.register-form, .login-form {
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  margin: 6rem auto;
+}
+
+.form input {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.lead {
+  font-size: 25px;
+}
+
+.heading {
+  margin-top: -60px;
+  font-size: 40px;
+}
+
+.link a {
+  color: #6cafa4;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    text-align: center;
+    display: block;
+  }
+
+  .navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .navbar h1 {
+    margin-bottom: 1rem;
+  }
+
+  .navbar .welcome {
+    display: none;
+  }
+}
+
+.ml2 {
+  font-size: 3.7em;
+  font-weight: 900;
+}
+
+.ml2 .letter {
+  line-height: 1em;
+  display: inline-block;
+}
+
+.home {
+  text-shadow: 1px 5px 2px #fff;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: 280%;
+}
+
+.prescription-card {
+  max-width: 900px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 5px;
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+.image-container {
+  justify-content: center;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+}
+
+.details-input-container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.labelin {
+  width: 200px;
+}
+
+/*# sourceMappingURL=index.34b7aba5.css.map */

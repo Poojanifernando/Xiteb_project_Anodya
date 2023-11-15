@@ -1,0 +1,34 @@
+/* // here all the css parts related to getprescription page */
+
+.prescription-card {
+  border: 1px solid #ccc;
+  padding: 5px; /* Reduce padding */
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 900px; /* Set a maximum width */
+  margin: 0 auto; /* Center the card */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.image-container img {
+  max-width: 100%; /* Set maximum width to 100% of the container */
+  max-height: 150px; /* Set maximum height as per your requirement */
+  object-fit: contain; /* Preserve aspect ratio while fitting */
+}
+
+.details-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.labelin{
+ width:200px;
+ 
+}

@@ -1,0 +1,18 @@
+/* all the css parts related to the dashboard page */
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.7em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .home{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 280%;
+    text-shadow: 1px 5px 2px white;
+    
+  }
